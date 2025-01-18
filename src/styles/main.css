@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 1rem 5rem 2rem;
+}
+
+header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo i{
+    font-size: 3rem;
+    color: #218011;
+}
+
+header .logo h1{
+    color:#218011;
+    font-size: 1.5rem;
+}
+
+header nav ul{
+    display: flex;
+    flex-flow: row;
+}
+
+header nav ul li{
+    margin: 15px;
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #19191B;
+    font-weight: 500;
+}
+
+.btn{
+    padding: 15px 15px 15px;
+    background-color: #218011;
+    border-radius: 0.6rem;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 300ms ease;
+}
+
+.btn:hover{
+    background-color: #1B5A11;
+}
+
+/*Home Section*/
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem 5rem 2rem;
+}
+
+.home .home-left h1{
+    font-size: 3rem;
+    width: 40rem;
+}
+.home .home-left p{
+    font-size: 1.4rem;
+    color: gray;
+    width: 35rem;
+    margin-bottom: 1.5rem;
+}
+.home .home-right img{
+    width: 400px;
+    border-radius: 1rem;
+}
+/*Benefit Section*/
+
+.benefit{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 8rem 0 2rem;
+}
+
+.benefit h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.benefit .benefit-info{
+    display: flex;
+    padding-top: 3rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row;
+}
+
+.benefit .benefit-info .benefit-box{
+    display: flex;
+    align-items: center;
+    padding: 1rem 0.5rem;
+    flex-flow: column nowrap;
+    margin: 10px;
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 210px;
+    height: 200px;
+    /* border: 1px solid black; */
+    box-shadow: 8px 11px 11px -8px rgba(0,0,0,0.47);
+    -webkit-box-shadow: 8px 11px 11px -8px rgba(0,0,0,0.47);
+    -moz-box-shadow: 8px 11px 11px -8px rgba(0,0,0,0.47);
+}
+
+.benefit .benefit-info .benefit-box i{
+    color: #218011;
+    font-size: 3.5rem;
+    
+}
+
+.benefit .benefit-info .benefit-box h1{
+    font-size: 1.1rem;
+}
+
+.benefit .benefit-info .benefit-box p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
+
+/*Feedbacks Section*/
+
+.feedbacks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 8rem 5rem 2rem;
+}
+
+.feedbacks h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.feedbacks .feeds{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    padding-top:3rem;
+}
+
+.feedbacks .feeds .feed-box{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 1.5rem;
+    width: 23.2rem;
+}
+
+.feedbacks .feeds .feed-box .stars{
+    color: orange;
+    font-size: 1.5rem;
+}
+
+.feedbacks .feeds .feed-box p{
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.feedbacks .feeds .feed-box h3{
+    margin-top: 1rem;
+}
+.feedbacks .feeds .feed-box span{
+    color: gray;
+    margin-top: 3px;
+}
+
+/*Footer*/
+
+footer{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 8rem 0 0;
+
+}
+
+footer .info{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding: 8rem 5rem 2rem;
+}
+
+footer .info .about{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+footer .info .about i{
+    font-size: 2.5rem;
+    color: #218011;
+}
+    
+footer .info .about h1{
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+footer .info .about p{
+    width: 18rem;
+    margin-top: 5px;
+}
+
+footer .info .about a i{
+    font-size: 2rem;
+    margin-top: 8px;
+}
+
+/*Footer Links*/
+
+footer .info .links{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+footer .info .links h1{
+    font-size: 1.8rem;
+}
+
+footer .info .links a{
+    text-decoration: none;
+    margin: 3px;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+footer .info .links a::before{
+    content: '➜ ';
+    color: #218011;
+    transition: all 300ms ease;
+}
+footer .info .links a:hover{
+    transform: translateX(10px);
+}
+
+/*Footer Contact*/
+
+footer .info .contact{
+    display: flex;
+    flex-flow: column nowrap;
+}
+footer .info .contact h1{
+    font-size: 1.8rem;
+}
+
+footer .info .contact p{
+    margin: 3px;
+}
+
+footer .info .contact p i{
+    color: #218011;
+}
+
+/*Footer Information*/
+
+footer .info .information{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 22rem;
+}
+
+footer .info .information h1{
+    font-size: 1.8rem;
+}
+
+footer .info .information p{
+    margin-top: 3px;
+}
+
+footer .info .information input{
+    margin-top: 1rem;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    border: 0.5px solid gray;
+    margin-bottom: 1rem;
+}
+footer .info .information button{
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: #218011;
+    color:white;
+    cursor: pointer;
+    transition: all 300ms ease;
+    
+}
+footer .info .information button:hover{
+    background-color: #1B5A11;
+}
+
+/*Footer Terms*/
+
+footer .terms-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 2rem 5rem 1.5rem;
+}
+
+footer .terms-footer p span{
+    font-weight: 600;
+}
+
+footer .terms-footer .terms a{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+footer .divisor{
+    background-color: #797B86;
+    width: 100%;
+    height: 0.5px;
+    margin-top: 2rem;
+    margin-bottom: -5rem;
+}

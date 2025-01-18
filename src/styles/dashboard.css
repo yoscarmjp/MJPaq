@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mali', sans-serif !important;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 1rem 3rem 2rem;
+}
+
+header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo i{
+    font-size: 3rem;
+    color: #F05A35;
+}
+
+header .logo i:hover{
+    color: white;
+}
+
+header .logo nav ul li i{
+    font-size: 1.6rem;
+}
+
+header .logo h1{
+    color:#F05A35;
+    font-size: 1.8rem;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li{
+    margin: 30px;
+    font-size: 1.4rem;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: all 300ms ease;
+}
+
+header .logo nav ul li a:hover{
+    background-color: #F05A35;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+header .nav-user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .nav-user a{
+    font-size: 1.4rem;
+    color: black;
+    text-decoration: none;
+}
+
+header .nav-user a i{
+    color: #F05A35;
+    font-size: 1.6rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 4rem 3rem;
+}
+
+.container .packages-list{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding: 2rem 0 3rem;
+}
+
+.container .packages-list h1{
+    font-weight: 600;
+}
+
+.container .packages-list h1 i{
+    color: #F05A35;
+}
+
+.container .search{
+padding: 0 0 3rem;
+}
+.container .search input{
+    padding: 0.8rem;
+    width: 18rem;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+.container .search a{
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+
+.container .packages-items{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid gray;
+    padding: 1.3rem 0 0;
+}
+
+.container .packages-items .bar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-size: 1.4rem;
+}
+
+.container .items{
+    text-align: center;
+    padding: 4rem;
+    font-size: 1.2rem;
+}
